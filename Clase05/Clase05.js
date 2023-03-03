@@ -88,24 +88,22 @@
 // El usuario ingresara autos y respecto a sus km, y años, vamos a definir un metodo "promediokm" que brinde el kilometraje promedio por año del auto. 
 
 //Los prompts se pueden pedir directamente en el constructor o en variables como parametros.
-class Auto{
-    constructor(){
-        this.marca = prompt('Ingrese la marca del auto')
-        this.modelo = prompt('Ingrese el modelo del auto')
-        this.km = parseInt(prompt('Ingrese los km del auto'))
-        this.ano = parseInt(prompt('Ingrese el año de fabrica del auto'))
-    }
-    promediokm(){
-        const anosDelAuto = 2023-this.ano
-        const promedioDeKm = this.km/anosDelAuto
-        return promedioDeKm
-    }
-}
+// class Auto{
+//     constructor(){
+//         this.marca = prompt('Ingrese la marca del auto')
+//         this.modelo = prompt('Ingrese el modelo del auto')
+//         this.km = parseInt(prompt('Ingrese los km del auto'))
+//         this.ano = parseInt(prompt('Ingrese el año de fabrica del auto'))
+//     }
+//     promediokm(){
+//         const anosDelAuto = 2023-this.ano
+//         const promedioDeKm = this.km/anosDelAuto
+//         return promedioDeKm
+//     }
+// }
 
-const auto1 = new Auto()
-console.log(auto1.promediokm())
-
-
+// const auto1 = new Auto()
+// console.log(auto1.promediokm())
 
 
 
