@@ -1,0 +1,19 @@
+.chico{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: red;
+   
+}
+.chico li{
+    color:#0000
+}
+.adulto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;
+}
+.adulto{
+    color:#0000
+}
