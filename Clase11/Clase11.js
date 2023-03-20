@@ -35,7 +35,6 @@ function agregarAlCarrito(e){
             <h3>Cantidad: ${carrito[indiceDelProducto].cantidad}</h3>
             <h3>Total de ${productoAAgregar.nombre} : $ ${carrito[indiceDelProducto].cantidad*productoAAgregar.precio}</h3>
         `
-
     }else{
         let productoConCantidad = {...productoAAgregar,cantidad:1}
         carrito.push(productoConCantidad)
@@ -49,7 +48,6 @@ function agregarAlCarrito(e){
         let carritoContendor = document.getElementById('carrito')
         carritoContendor.append(cardCarrito)
     }
-    
 }
 function existeEnCarrito(productoAChequear){
     // if(carrito.find((producto)=>producto.id === productoAChequear))return true
