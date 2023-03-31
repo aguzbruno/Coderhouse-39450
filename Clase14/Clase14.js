@@ -107,18 +107,18 @@ function obtenerProductos() {
 let productos = []
 
 obtenerProductos()
-    .then((response)=>{
+    .then((response) => {
         productos = response
         mostrarProductos()
     })
-    .catch((error)=>{
+    .catch((error) => {
         console.log(error)
     })
-    .finally(()=>{
+    .finally(() => {
         console.log('Fin del proceso')
     })
 
-function mostrarProductos(){
+function mostrarProductos() {
     for (const producto of productos) {
         console.log(producto)
     }
